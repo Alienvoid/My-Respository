@@ -9,8 +9,8 @@ class pixiv_spider():
                            'Referer':'https://accounts.pixiv.net/login?lang=zh',
                            'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
                            'X-Requested-With':"XMLHttpRequest"}
-        self.login_id='645396913@qq.com'
-        self.login_password='yangtao@176'
+        self.login_id='xxxxx'#Enter your Pixiv ID here.
+        self.login_password='xxxxx'#Enter your Pixiv password here.
         self.return_page_url='https://www.pixiv.net/member.php?id=3640500'
     def login(self):
         login_page=s.get(self.origin_url)
